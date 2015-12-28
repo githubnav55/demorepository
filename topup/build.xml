@@ -20,7 +20,7 @@
 		</fileset>
 	</path>
 
-	<target name="clean" description="Delete old directories">
+	<target name="clean" description="Delete the directories">
 		<delete dir="${work.dir}"/>
 		<delete dir="${war.dir}"/>
 	</target>
